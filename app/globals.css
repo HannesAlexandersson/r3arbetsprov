@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@layer theme, base, components, utilities;
 
 :root {
   --backgroundPrimary: #2B2B2B;
