@@ -14,6 +14,19 @@ const heroTexts = {
   ],
 };
 
+export const selectionTexts = {
+  ourHouses: {
+    title: "Våra hus",
+    btnDescription: "VÅRA HUS",
+    imageSrc: "/houses.png",
+  },
+  accessores: {
+    title: "Tillval",
+    btnDescription: "LÄS MER",
+    imageSrc: "/tillval.png",
+  },
+};
+
 const footerTexts = {
   text: "Morbi ornare sagittis dui, at dictum nulla bibendum non. Nullam rhoncus quam metus, id bibendum justo ultricies et. Integer nec nisl turpis. Nunc eget pulvinar urna.",
 };
