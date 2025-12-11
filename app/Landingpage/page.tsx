@@ -1,5 +1,4 @@
 import Hero from "@/components/Hero/Hero";
-import Navbar from "@/components/Navbar/Navbar";
 import SelectionSection from "@/components/SelectionSection/SelectionSection";
 import { Header, Paragraph } from "@/components/TextSection";
 import { heroTexts } from "@/lib/texts";
