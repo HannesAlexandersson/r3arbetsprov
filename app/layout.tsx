@@ -1,5 +1,7 @@
+import Footer from "@/components/FooterSection/Footer";
 import type { Metadata } from "next";
 import { DM_Mono, DM_Sans } from "next/font/google";
+
 import "./globals.css";
 
 const dmMono = DM_Mono({
@@ -25,9 +27,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${dmMono.variable} ${dmSans.variable} antialiased`}>
+    <html lang="en" className="h-full">
+      <body
+        className={`${dmMono.variable} ${dmSans.variable} antialiased min-h-screen`}
+      >
         {children}
+        <Footer />
       </body>
     </html>
   );

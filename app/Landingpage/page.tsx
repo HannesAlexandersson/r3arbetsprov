@@ -6,8 +6,7 @@ import { heroTexts } from "@/lib/texts";
 
 const Landingpage = () => {
   return (
-    <main className="relative flex flex-col h-screen items-center">
-      <Navbar />
+    <main className="relative flex flex-col items-center">
       <Hero />
       <div className="bg-primary-background w-full  flex items-center justify-center ">
         <div className="py-12">
