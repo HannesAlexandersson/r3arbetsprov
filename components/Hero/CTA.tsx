@@ -10,14 +10,19 @@ const CTA = ({ className }: { className: string }) => {
   };
 
   return (
-    <div className={cn("flex flex-col max-w-[398px] gap-6", className)}>
+    <div
+      className={cn(
+        "flex flex-col max-w-[300px] md:max-w-[398px] gap-6",
+        className
+      )}
+    >
       <Header
         text={ctaTexts.header}
-        className="font-medium text-[34px] leading-none tracking-normal text-primarytext"
+        className="font-medium text-3xl md:text-[34px] leading-none tracking-normal text-primarytext"
       />
       <Paragraph
         paragraphs={ctaTexts.paragraph}
-        className="font-light text-[18px] leading-[26px] tracking-normal text-primarytext"
+        className="font-light text-[20px] md:text-[18px] leading-[26px] tracking-normal text-primarytext"
       />
       <Button
         text={ctaTexts.btn}
