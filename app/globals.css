@@ -3,18 +3,23 @@
 :root {
   --backgroundPrimary: #2B2B2B;
   --backgroundSecondary: #101010;
+  --buttonBackground: #1E1E1E;
   --textPrimary: #FFFFFF;
+  --font-sans: 'DM_Sans', sans-serif;
+  --font-mono: 'DM_Mono', monospace;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-mono-sans: var(--font-sans);
-  --font-mono-dm: var(--font-dm);
+  --color-primary-background: var(--backgroundPrimary);
+  --color-secondary-background: var(--backgroundSecondary);
+  --color-primarytext: var(--textPrimary);
+  --color-button-background: var(--buttonBackground);
+  --font-sans-dm: var(--font-sans);
+  --font-mono-dm: var(--font-mono);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
+  background: var(--primary-background);
+  color: var(--primarytext);
   font-family: "DM_Mono", "DM_Sans", sans-serif;
 }
