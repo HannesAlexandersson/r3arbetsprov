@@ -5,6 +5,7 @@
   --backgroundPrimary: #2B2B2B;
   --backgroundSecondary: #101010;
   --buttonBackground: #1E1E1E;
+  --linkHover: #34345c;
   --textPrimary: #FFFFFF;
   --font-sans: 'DM_Sans', sans-serif;
   --font-mono: 'DM_Mono', monospace;
@@ -15,6 +16,7 @@
   --color-secondary-background: var(--backgroundSecondary);
   --color-primarytext: var(--textPrimary);
   --color-button-background: var(--buttonBackground);
+  --color-link-hover: var(--linkHover);
   --font-sans-dm: var(--font-sans);
   --font-mono-dm: var(--font-mono);
 }

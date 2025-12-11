@@ -3,7 +3,7 @@ import Selection from "./Selection";
 
 const SelectionSection = () => {
   return (
-    <div className="flex w-full ">
+    <div className="flex flex-col md:flex-row w-full ">
       <Selection
         title={selectionTexts.ourHouses.title}
         imageSrc={selectionTexts.ourHouses.imageSrc}
