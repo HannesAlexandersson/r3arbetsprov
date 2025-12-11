@@ -10,7 +10,7 @@ const Button: React.FC<ButtonProps> = ({
   return (
     <button
       className={cn(
-        "flex items-center justify-center font-sans-dm font-normal uppercase text-[15px]",
+        "flex items-center justify-center font-sans-dm font-normal uppercase text-[15px] cursor-pointer transition-transform duration-200 ease-in-out active:scale-95",
         className
       )}
       {...props}
